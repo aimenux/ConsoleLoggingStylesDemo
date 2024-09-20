@@ -36,5 +36,5 @@ try
 catch (Exception ex)
 {
     var logger = factory.CreateLogger<Program>();
-    logger.LogError("An error occurred: {Message}", ex.Message);
+    logger.LogError(ex, "An error occurred");
 }
