@@ -1,3 +1,5 @@
+[![.NET](https://github.com/aimenux/ConsoleLoggingStylesDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/aimenux/ConsoleLoggingStylesDemo/actions/workflows/ci.yml)
+
 # ConsoleLoggingStylesDemo
 ```
 Using various styles to setup logging in console applications
@@ -6,11 +8,11 @@ Using various styles to setup logging in console applications
 In this demo, i m using various styles in order to setup logging in console applications.
 
 >
-- Example01 : based on ConfigureLogging method (the recommended way)
+- `Example01` : based on [ConfigureLogging](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.hosting.webhostbuilderextensions.configurelogging) (the recommended way)
 >
-- Example02 : based on AddLogging method
+- `Example02` : based on [AddLogging](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.loggingservicecollectionextensions.addlogging)
 >
-- Example03 : based on LoggerFactory class
+- `Example03` : based on [LoggerFactory](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.loggerfactory)
 >
 
 | Feature                               | **ConfigureLogging**                                      | **AddLogging**                                         | **Manual LoggerFactory**                             |
