@@ -15,7 +15,7 @@ In this demo, i m using various styles in order to setup logging in console appl
 - `Example03` : based on [LoggerFactory](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.loggerfactory)
 >
 
-| Feature                               | **ConfigureLogging**                                      | **AddLogging**                                         | **Manual LoggerFactory**                             |
+| Feature                               | **ConfigureLogging**                                      | **AddLogging**                                         | **LoggerFactory**                             |
 |---------------------------------------|-----------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------|
 | **Purpose**                           | Configure logging globally for the entire application      | Configure logging for specific services within DI       | Manual logger factory creation and injection        |
 | **Where used**                        | In the `Host` configuration                                | Inside `ConfigureServices` within the DI container      | Manually outside the `Host` configuration           |
