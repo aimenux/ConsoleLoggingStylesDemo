@@ -1,5 +1,7 @@
 ﻿using System.Text.Json;
+
 using Example03;
+
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -22,7 +24,7 @@ try
     using var host = Host.CreateDefaultBuilder(args)
         .ConfigureServices((_, services) =>
         {
-            services.AddSingleton(factory);
+            services.AddSingleton<ILoggerFactory>(factory);
             services.AddSingleton(typeof(ILogger<>), typeof(Logger<>));
             services.AddSingleton<IService, Service>();
         })
