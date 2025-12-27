@@ -1,4 +1,4 @@
-[![.NET](https://github.com/aimenux/ConsoleLoggingStylesDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/aimenux/ConsoleLoggingStylesDemo/actions/workflows/ci.yml)
+[![.NET](https://github.com/aimenux/ConsoleLoggingStylesDemo/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/aimenux/ConsoleLoggingStylesDemo/actions/workflows/ci.yml)
 
 # ConsoleLoggingStylesDemo
 ```
@@ -26,4 +26,4 @@ In this demo, i m using various styles in order to setup logging in console appl
 | **Flexibility**                       | Limited to global configurations                           | Flexible for different services                         | Highly flexible for custom setups                   |
 | **Best Use Case**                     | When you want global, consistent logging                   | When services require different logging setups          | When you need full control over logging behavior     |
 
-**`Tools`** : net 8.0
+**`Tools`** : net 10.0
