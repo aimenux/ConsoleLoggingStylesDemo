@@ -12,7 +12,6 @@ using var host = Host.CreateDefaultBuilder(args)
         services.AddLogging(loggingBuilder =>
         {
             loggingBuilder.ClearProviders();
-
             loggingBuilder.AddJsonConsole(options =>
             {
                 options.JsonWriterOptions = new JsonWriterOptions

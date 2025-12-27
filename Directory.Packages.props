@@ -1,7 +1,12 @@
 <Project>
 
-  <ItemGroup Label="Nuget Packages">
-    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
-  </ItemGroup>
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+        <CentralPackageTransitivePinningEnabled>false</CentralPackageTransitivePinningEnabled>
+    </PropertyGroup>
     
+    <ItemGroup Label="Nuget Packages">
+        <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0"/>
+    </ItemGroup>
+
 </Project>

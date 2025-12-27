@@ -9,7 +9,6 @@ using Microsoft.Extensions.Logging;
 var factory = LoggerFactory.Create(loggingBuilder =>
 {
     loggingBuilder.ClearProviders();
-
     loggingBuilder.AddJsonConsole(options =>
     {
         options.JsonWriterOptions = new JsonWriterOptions

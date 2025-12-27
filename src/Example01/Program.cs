@@ -10,7 +10,6 @@ using var host = Host.CreateDefaultBuilder(args)
     .ConfigureLogging((_, loggingBuilder) =>
     {
         loggingBuilder.ClearProviders();
-        
         loggingBuilder.AddJsonConsole(options =>
         {
             options.JsonWriterOptions = new JsonWriterOptions
